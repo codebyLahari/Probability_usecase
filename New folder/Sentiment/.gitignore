@@ -1,0 +1,22 @@
+# Exclude all parent directories outside the project
+../../../*
+../*
+
+# Exclude unnecessary system files and directories
+.cache/
+.vscode/
+.ssh/
+AppData/
+NTUSER.DAT*
+*.lnk
+*.ini
+*.log
+*.exe
+
+# Exclude OneDrive folders
+OneDrive/
+
+# Exclude environment-related files
+env/
+.env
+node_modules/
